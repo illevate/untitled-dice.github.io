@@ -15,7 +15,7 @@ var config = {
   mp_api_uri: 'https://api.moneypot.com',
   chat_uri: '//socket.moneypot.com',
   // - Show debug output only if running on localhost
-  debug: isRunningLocally(),
+  // debug: isRunningLocally(),
   // - Set this to true if you want users that come to http:// to be redirected
   //   to https://
   force_https_redirect: !isRunningLocally(),
